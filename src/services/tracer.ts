@@ -12,7 +12,9 @@ let pyodide: PyodideInterface | null = null;
 export class TracerService {
   static async initPyodide() {
     if (!pyodide) {
-      pyodide = await loadPyodide();
+      pyodide = await loadPyodide({
+        indexURL: "https://cdn.jsdelivr.net/pyodide/v0.26.3/full/",
+      });
     }
   }
 
