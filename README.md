@@ -1,6 +1,6 @@
 # Code Tracer App
 
-![Code Tracer App](https://code-tracer-app.vercel.app)
+[Code Tracer App](https://code-tracer-app.vercel.app)
 
 ## Overview
 
