@@ -102,7 +102,7 @@ function App() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full">
         <div className="space-y-4 h-full">
-          <Card>
+          <Card className="h-[82vh]">
             <CardHeader>
               <CardTitle>Code Editor</CardTitle>
             </CardHeader>
@@ -161,8 +161,8 @@ function App() {
         </div>
 
         <div className="space-y-4 h-full">
-          <Card className="h-full">
-            <CardHeader>
+          <Card className="h-[82vh] overflow-y-scroll">
+            <CardHeader className="sticky top-0 bg-card z-10">
               <CardTitle>Execution Trace</CardTitle>
             </CardHeader>
             <CardContent className="overflow-y-auto">
