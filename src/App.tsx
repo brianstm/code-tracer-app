@@ -87,10 +87,9 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto px-4 md:py-6 py-3 space-y-4">
+    <div className="container mx-auto px-4 md:py-6 py-5 space-y-4">
       <h1 className="md:text-3xl text-2xl font-bold mb-4">
         Python Code Tracer
-        <span className="text-sm md:pl-4 pl-3">By: Brians Tjipto</span>
       </h1>
 
       {error && (
@@ -201,6 +200,17 @@ function App() {
             </CardContent>
           </Card>
         </div>
+      </div>
+
+      <div className="relative md:pt-5 pt-3">
+        <div className="absolute top-0"></div>
+        Brought to you by{" "}
+        <a
+          href="https://brians-tjipto.vercel.app"
+          className="relative underline hover:decoration-current hover:underline-offset-4 transition-all transition-duration-300"
+        >
+          Brians Tjipto
+        </a>
       </div>
     </div>
   );
